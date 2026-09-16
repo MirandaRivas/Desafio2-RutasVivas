@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -72,9 +73,10 @@ class CatalogoActivity : AppCompatActivity() {
                         )
                         listaDestinos.add(destino)
                     } catch (e: Exception) {
-                        // Si un registro viene con formato distinto, lo saltamos sin tumbar la app
+                        Toast.makeText(this@CatalogoActivity, "Error leyendo: ${e.message}", Toast.LENGTH_LONG).show()
                     }
                 }
+                Toast.makeText(this@CatalogoActivity, "Lista final tiene: ${listaDestinos.size} items", Toast.LENGTH_LONG).show()
                 adapter.actualizarLista(listaDestinos)
                 tvVacio.visibility = if (listaDestinos.isEmpty()) View.VISIBLE else View.GONE
             }
@@ -104,4 +106,3 @@ class CatalogoActivity : AppCompatActivity() {
             .show()
     }
 }
-

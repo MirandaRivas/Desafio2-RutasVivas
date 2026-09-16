@@ -47,9 +47,9 @@ class DestinoAdapter(
     override fun getItemCount(): Int = items.size
 
     fun actualizarLista(nuevaLista: List<Destino>) {
+        val copia = ArrayList(nuevaLista)
         items.clear()
-        items.addAll(nuevaLista)
+        items.addAll(copia)
         notifyDataSetChanged()
     }
 }
-
