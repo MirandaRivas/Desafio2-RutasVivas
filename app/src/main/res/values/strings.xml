@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">RutaViva</string>
+
+    <!-- Login -->
+    <string name="login_titulo">Iniciar Sesión</string>
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_btn_ingresar">Ingresar</string>
+    <string name="login_btn_ir_registro">¿No tienes cuenta? Regístrate</string>
+
+    <!-- Registro -->
+    <string name="registro_titulo">Crear Cuenta</string>
+    <string name="registro_btn_crear">Crear cuenta</string>
+    <string name="registro_btn_volver">Ya tengo cuenta, iniciar sesión</string>
+
+    <!-- Catálogo -->
+    <string name="catalogo_titulo">Catálogo de Destinos</string>
+    <string name="catalogo_vacio">Aún no hay destinos registrados</string>
+
+    <!-- Formulario Destino -->
+    <string name="destino_nombre">Nombre del destino</string>
+    <string name="destino_pais">País</string>
+    <string name="destino_precio">Precio del paquete (USD)</string>
+    <string name="destino_descripcion">Descripción del viaje (mín. 20 caracteres)</string>
+    <string name="destino_btn_seleccionar_imagen">Seleccionar imagen</string>
+    <string name="destino_btn_guardar">Guardar</string>
+    <string name="destino_btn_cancelar">Cancelar</string>
+    <string name="destino_btn_eliminar">Eliminar</string>
+
+    <!-- Errores de validación -->
+    <string name="error_campo_vacio">Este campo es obligatorio</string>
+    <string name="error_precio_invalido">El precio debe ser un número mayor a 0</string>
+    <string name="error_descripcion_corta">La descripción debe tener al menos 20 caracteres</string>
+    <string name="error_imagen_requerida">Debes seleccionar una imagen para el destino</string>
+    <string name="confirmacion_eliminar_titulo">Confirmación</string>
+    <string name="confirmacion_eliminar_mensaje">¿Está seguro de eliminar este destino?</string>
+
+    <string-array name="lista_paises">
+        <item>El Salvador</item>
+        <item>México</item>
+        <item>España</item>
+        <item>Francia</item>
+        <item>Italia</item>
+        <item>Japón</item>
+        <item>Estados Unidos</item>
+        <item>Costa Rica</item>
+        <item>Colombia</item>
+        <item>Perú</item>
+    </string-array>
+</resources>
+

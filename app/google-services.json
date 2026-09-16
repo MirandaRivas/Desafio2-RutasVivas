@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1026507449566",
+    "firebase_url": "https://rutasvivas-a5476-default-rtdb.firebaseio.com",
+    "project_id": "rutasvivas-a5476",
+    "storage_bucket": "rutasvivas-a5476.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026507449566:android:7c3158dadd34970ffd8e4f",
+        "android_client_info": {
+          "package_name": "Rutas.Vivas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD03t-0RhmGNWhCfaoZInGOp0el484eZuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026507449566:android:6ec8cba191ad40d8fd8e4f",
+        "android_client_info": {
+          "package_name": "com.example.rutasvivas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD03t-0RhmGNWhCfaoZInGOp0el484eZuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
