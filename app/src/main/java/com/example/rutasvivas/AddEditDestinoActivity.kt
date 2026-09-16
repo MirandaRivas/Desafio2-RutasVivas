@@ -172,4 +172,6 @@ class AddEditDestinoActivity : AppCompatActivity() {
         Toast.makeText(this, "Destino guardado con éxito", Toast.LENGTH_SHORT).show()
         finish()
     }
+
+
 }
