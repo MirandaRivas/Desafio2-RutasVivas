@@ -13,7 +13,7 @@ Eliminar) conectado a Firebase Realtime Database, con validaciones
 obligatorias y gestión de imágenes mediante Glide.
 
 ## Video de defensa
-[PEGA AQUÍ LA URL de tu video una vez lo subas, ej: https://youtu.be/xxxxxxx]
+[https://drive.google.com/file/d/1pQ5zcnbGHCDsd3D8uNuAonh9QdiCJRwp/view?usp=sharing]
 
 ## Contenido de este repositorio
 - **Código fuente:** carpeta `app/` (proyecto completo de Android Studio)
